@@ -1,7 +1,7 @@
 import React from "react";
 
 // Images
-import Logo from '../../assets/images/KU-CMS.png'
+import Logo from '/KU-CMS.webp'
 
 // Styles
 import "./LoginStyles.css";
@@ -12,7 +12,7 @@ const LoginPage = () => {
       <div className="loginContainer" id="container">
         <div className="form-container sign-up">
           <form>
-            <img src={Logo} alt="KU-CMS" className="logo"/>
+            <img src={Logo} alt="KU-CMS" className="logo" />
             <h2>Teacher Login</h2>
             <input type="email" placeholder="Email" />
             <input type="password" placeholder="Password" />
@@ -21,7 +21,7 @@ const LoginPage = () => {
         </div>
         <div className="form-container sign-in">
           <form>
-            <img src={Logo} alt="KU-CMS" className="logo"/>
+            <img src={Logo} alt="KU-CMS" className="logo" />
             <h2>Student Login</h2>
             <input type="email" placeholder="Email" />
             <input type="password" placeholder="Password" />
