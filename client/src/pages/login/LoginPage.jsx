@@ -1,7 +1,7 @@
 import React from "react";
 
 // Images
-import Logo from '../../assets/images/KU-CMS.webp'
+import Logo from '/KU-CMS.webp'
 
 // Styles
 import "./LoginStyles.css";
